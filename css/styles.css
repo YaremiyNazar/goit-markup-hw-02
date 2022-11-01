@@ -1,0 +1,145 @@
+
+:root {
+    --primery-text-color: #212121;
+    --accent-color: #2196F3;
+}
+body {
+    font-family: 'Roboto', 'Tahoma', sans-serif;
+    color: var(--primery-text-color);
+    letter-spacing: 0.03em;  
+    background-color: #FFFFFF;
+}
+ul {
+    list-style: none;
+}
+/* Logo */
+.logo {
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    Line-height: 1.17;
+    text-decoration: none;
+    color: #000000;
+}
+.logo > span {
+    color: var(--accent-color);
+}
+/* Header */
+.header {
+    font-size: 14px;
+    font-weight: 500;
+    Line-height: 1.17;
+}
+.nav-link {
+    text-decoration: none;
+    color: inherit;
+    letter-spacing: 0.02em;
+}
+.authorization-link,
+p {
+    text-decoration: none;
+    color: #757575;
+}
+.nav-link.current,
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--accent-color);
+}
+.authorization-link:hover,
+.authorization-link:focus {
+    color: var(--accent-color);
+}
+/* Main */
+.hero,
+.footer {
+    background-color: #2F303A;
+}
+.hero-title {
+    font-size: 44px;
+    font-weight: 900;
+    Line-height: 1.36;
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing: 0.06em;
+}
+.button {
+    font-family: inherit;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    Line-height: 1.63;
+    color: var(--primery-text-color);
+    background-color: #F5F4FA;
+}
+.hero .button {
+    font-weight: 700;
+    Line-height: 1.88;
+    letter-spacing: 0.06em;
+}
+.button:hover,
+.button:focus {
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+}
+.pointer {
+    cursor: pointer;
+}
+.features-text > h3 {
+    font-size: 14px;
+    font-weight: 700;
+    Line-height: 1.17;
+}
+.features-text > p {
+    font-size: 14px;
+    Line-height: 1.71;  
+}
+.team {
+    background-color: #F5F4FA;
+}
+h1,
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    Line-height: 1.17;
+    text-align: center;
+}
+.team-text > h3 {
+    font-size: 16px;
+    font-weight: 500;
+    Line-height: 1.17;
+}
+.team-text > p {
+    font-size: 16px;
+    Line-height: 1.17;  
+}
+.portfolio > h3 {
+    font-size: 18px;
+    font-weight: 700;
+    Line-height: 2.0;
+    letter-spacing: 0.06em;
+}
+.portfolio > p {
+    font-size: 16px;
+    Line-height: 1.88;
+}
+/* Футер */
+ .footer .logo {
+    color: #FFFFFF; 
+ }
+ .footer,
+ .footer-text {
+    font-size: 14px;
+    font-weight: 400;
+    Line-height: 1.71;
+    font-style: inherit;
+    color: #FFFFFF
+ }
+ .footer-link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+ }
+ .footer-link:hover,
+ .footer-link:focus {
+    color: var(--accent-color);
+ }
+

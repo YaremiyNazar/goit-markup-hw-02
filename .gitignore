@@ -102,9 +102,4 @@ dist
 
 # TernJS port file
 .tern-port
-.vscode
-.idea
-.Ds_Store
-build
-*.psd
-vumogu2
+
